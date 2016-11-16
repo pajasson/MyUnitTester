@@ -7,13 +7,11 @@ import java.util.ArrayList;
 public class Model implements Runnable {
 
     private View gui;
-    public String classToRun = null;
-
     private Method setup;
     private Method tearDown;
-
     private ArrayList<String> result = new ArrayList<>();
 
+    public String classToRun = null;
 
     Model(View gui) {
         this.gui = gui;
