@@ -1,7 +1,12 @@
 import javax.swing.*;
 
-public class MyUnitTester
-{
+/**
+ * Main class for the program MyUnitTester
+ *
+ * Starts up a new GUI with a controller and sets up the associated model.
+ * The GUI will run on the event dispatch thread
+ */
+public class MyUnitTester {
 
     public static void main( String[] args ) {
 
